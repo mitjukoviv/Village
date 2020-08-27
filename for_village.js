@@ -1,4 +1,4 @@
-(function() {
+javascript: (function() {
 	var result=[0,0,0,0,0,0,0];
 	var total=[0,0,0,0,0,0,0];
 	var dbRef = InitObj();
@@ -78,4 +78,4 @@
 		setTimeout(() => bar1_box.getElementsByClassName('item__bar')[0].style.width=w1+'px', 700);
 		setTimeout(() => bar2_box.getElementsByClassName('item__bar')[0].style.width=w2+'px', 700);
 	}
-)();
+})();
